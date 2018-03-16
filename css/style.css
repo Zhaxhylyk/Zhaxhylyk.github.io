@@ -1,0 +1,542 @@
+/* line 5, style.less */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/* line 8, style.less */
+body {
+  background-color: #d6ecf1;
+}
+/* line 12, style.less */
+.main {
+  background-color: #ffffff;
+  height: 214px;
+}
+/* line 16, style.less */
+.header {
+  display: block;
+  width: 100%;
+  height: 137px;
+}
+/* line 20, style.less */
+.header .row {
+  height: 137px;
+}
+/* line 23, style.less */
+.header img {
+  margin-left: 25px;
+  margin-top: 15px;
+}
+/* line 27, style.less */
+.header a {
+  display: block;
+  margin-top: 101px;
+  font-family: Arial;
+  color: #f36240;
+  font-size: 22.99px;
+  font-weight: 400;
+  text-decoration: underline;
+  text-align: center;
+}
+/* line 38, style.less */
+.header span {
+  margin-top: 74px;
+  margin-right: 28px;
+  display: block;
+  vertical-align: middle;
+  text-align: right;
+}
+/* line 44, style.less */
+.header span h3 {
+  margin-top: 0;
+  font-family: Arial;
+  color: #484745;
+  font-size: 29px;
+  font-weight: 400;
+  text-align: center;
+}
+/* line 53, style.less */
+.header span p {
+  margin-bottom: 0;
+  font-family: Arial;
+  color: #484745;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: right;
+}
+/* line 65, style.less */
+.menu {
+  position: absolute;
+  margin-top: 20px;
+  display: block;
+  width: 100%;
+}
+/* line 72, style.less */
+.menu .division {
+  overflow: hidden;
+  zoom: 1;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+/* line 80, style.less */
+.about {
+  height: 57px;
+  width: 200px;
+  font-family: Arial;
+  color: #5f6973;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 57px;
+  display: inline-block;
+}
+/* line 91, style.less */
+.services {
+  height: 57px;
+  width: 300px;
+  font-family: Arial;
+  color: #5f6973;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 57px;
+  list-style: none;
+  float: left;
+  border-left: 1px solid #666;
+  margin: 0 1px 0 -1px;
+}
+/* line 106, style.less */
+.shares,
+.contacts {
+  height: 57px;
+  width: 200px;
+  font-family: Arial;
+  color: #5f6973;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 57px;
+  display: inline-block;
+  list-style: none;
+  float: left;
+  border-left: 1px solid #666;
+  margin: 0 1px 0 -1px;
+}
+/* line 124, style.less */
+.prices {
+  line-height: 57px;
+  height: 57px;
+  background-color: #7cc4d6;
+  width: 200px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  list-style: none;
+  float: left;
+  border-left: 1px solid #666;
+  padding: 0 20px;
+  margin: 0 1px 0 -1px;
+}
+/* line 140, style.less */
+.block-prices-title {
+  height: 176px;
+}
+/* line 142, style.less */
+.block-prices-title h1 {
+  font-family: Arial;
+  color: #4b4b4b;
+  font-size: 64.01px;
+  font-weight: 400;
+  text-align: left;
+}
+/* line 149, style.less */
+.block-prices-title p {
+  font-family: Arial;
+  color: #4b4b4b;
+  font-size: 25.99px;
+  font-weight: 400;
+  text-align: left;
+}
+/* line 158, style.less */
+.block-prices-list {
+  background-color: #ffffff;
+  height: 540px;
+}
+/* line 161, style.less */
+.block-prices-list p {
+  margin-top: 25px;
+  margin-bottom: 26px;
+  font-family: Arial;
+  color: #4b4b4b;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+}
+/* line 170, style.less */
+.block-prices-list a {
+  display: block;
+  font-family: Arial;
+  color: #8a8a8a;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: underline;
+  text-align: left;
+  line-height: 35px;
+}
+/* line 179, style.less */
+.block-prices-list a#active {
+  font-family: Arial;
+  color: #eb5825;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: underline;
+  text-align: left;
+  line-height: 35px;
+}
+/* line 190, style.less */
+.block-prices-review {
+  background-color: #ffffff;
+  border-radius: 5px;
+  height: 610px;
+}
+/* line 194, style.less */
+.block-prices-review h3 {
+  margin-top: 30px;
+  margin-bottom: 32px;
+  font-family: Arial;
+  color: #484848;
+  font-size: 25.99px;
+  font-weight: 400;
+  text-align: left;
+  -webkit-transform: scaleX(1.0008);
+          transform: scaleX(1.0008);
+}
+/* line 204, style.less */
+.block-prices-review h4 {
+  margin-bottom: 22px;
+  font-family: Arial;
+  color: #484848;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+}
+/* line 212, style.less */
+.block-prices-review li {
+  color: #eb5825;
+}
+/* line 213, style.less */
+.block-prices-review li span {
+  margin-bottom: 41px;
+  font-family: Arial;
+  color: #484848;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+/* line 223, style.less */
+.block-prices-review p {
+  margin-top: 28px;
+  margin-bottom: 59px;
+  font-family: Arial;
+  color: #484848;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+}
+/* line 232, style.less */
+.block-prices-review button {
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  background-color: #eb5825;
+  width: 311px;
+  height: 43px;
+  margin-top: 42px;
+  margin-bottom: 15px;
+  display: block;
+}
+/* line 248, style.less */
+.block-prices-review a {
+  font-family: Arial;
+  color: #8a8a8a;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: underline;
+  text-align: left;
+}
+/* line 259, style.less */
+.irish-oak p {
+  font-family: Arial;
+  color: #a6a6a6;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 43px;
+}
+/* line 269, style.less */
+.icon {
+  display: inline-block;
+}
+/* line 273, style.less */
+[id^=c] {
+  display: none;
+}
+/* line 276, style.less */
+[id^=c] + label {
+  display: inline-block;
+  width: 59px;
+  height: 59px;
+  text-align: center;
+  position: relative;
+}
+/* line 285, style.less */
+[id^=c] + label:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  -webkit-clip-path: polygon(45% 64%, 84% 14%, 100% 28%, 47% 100%, 0 49%, 15% 32%);
+  clip-path: polygon(45% 64%, 84% 14%, 100% 28%, 47% 100%, 0 49%, 15% 32%);
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: transform .3s;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+/* line 298, style.less */
+[id^=c]:checked + label:before {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+/* line 303, style.less */
+.why-as {
+  margin-top: 25px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  height: 540px;
+}
+/* line 309, style.less */
+.why {
+  display: block;
+}
+/* line 312, style.less */
+.why h3 {
+  margin-top: 36px;
+  margin-bottom: 30px;
+  margin-left: 36px;
+}
+/* line 317, style.less */
+.why img {
+  margin: 10px;
+}
+/* line 322, style.less */
+.strata {
+  margin-left: 13px;
+  height: 53px;
+  display: block;
+  font-family: Arial;
+  color: #484848;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+/* line 333, style.less */
+.tree {
+  margin-left: 13px;
+  margin-top: 23px;
+  height: 53px;
+  display: block;
+  font-family: Arial;
+  color: #484848;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+/* line 344, style.less */
+.as {
+  margin-top: 35px;
+  display: inline-block;
+}
+/* line 348, style.less */
+.as .become-colored {
+  font-family: Arial;
+  color: #484848;
+  font-size: 26px;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 29px;
+}
+/* line 358, style.less */
+.circle {
+  border-radius: 50%;
+  border-width: 2px;
+  border-color: #484848;
+  border-style: solid;
+  width: 30px;
+  height: 30px;
+  padding: 0.4px;
+  font-family: Arial;
+  color: #484848;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+/* line 374, style.less */
+.lamination-proc {
+  margin-top: 20px;
+  font-family: Arial;
+  color: #484848;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+/* line 386, style.less */
+.connection-proc {
+  font-family: Arial;
+  color: #484848;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+/* line 396, style.less */
+.life-time {
+  font-family: Arial;
+  color: #484848;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+/* line 407, style.less */
+.reviews {
+  height: 401px;
+}
+/* line 409, style.less */
+.reviews-title {
+  height: 82px;
+  width: 100%;
+  display: block;
+  margin: 0;
+}
+/* line 414, style.less */
+.reviews-title h2 {
+  width: 55%;
+  display: inline-block;
+  font-family: Arial;
+  color: #484848;
+  font-size: 25.99px;
+  font-weight: 400;
+  text-align: left;
+}
+/* line 423, style.less */
+.reviews-title span a {
+  display: inline-block;
+  width: 40%;
+  font-family: Arial;
+  color: #eb5825;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: right;
+  line-height: 82px;
+}
+/* line 434, style.less */
+.reviews-alena {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 37px 37px 36px 77px;
+}
+/* line 438, style.less */
+.reviews-alena strong {
+  font-family: Arial;
+  color: #484848;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+/* line 445, style.less */
+.reviews-alena #treaty {
+  font-family: Arial;
+  color: #8a8a8a;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+/* line 452, style.less */
+.reviews-alena #review {
+  margin-top: 20px;
+  font-family: Arial;
+  color: #484848;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+/* line 460, style.less */
+.reviews-alena a {
+  font-family: Arial;
+  color: #eb5825;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+/* line 468, style.less */
+.reviews-alena button {
+  display: block;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: #eb5825;
+  width: 163px;
+  height: 39px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+@media (max-width: 1199px) {
+  /* line 487, style.less */
+  .main {
+    position: relative;
+    display: inline-block;
+  }
+  /* line 492, style.less */
+  .about,
+  .prices,
+  .services,
+  .shares,
+  .contacts {
+    width: 100px;
+  }
+}
+@media (max-width: 991px) {
+  /* line 497, style.less */
+  .menu {
+    display: block;
+  }
+  /* line 500, style.less */
+  .header {
+    display: block;
+  }
+  /* line 504, style.less */
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
